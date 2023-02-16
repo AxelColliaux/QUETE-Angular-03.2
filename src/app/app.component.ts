@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = '03Bis-Directives';
+  showMovies:boolean = true;
+
+  displayMovie(){
+    this.showMovies = !this.showMovies;
+  }
 }
